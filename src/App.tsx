@@ -1,13 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Item from './components/itemComponent';
+import NumberRollup from "./pages/number/NumberColumn";
 
 function App() {
   return (
     <div className="App">
-      <h1>This Data is from backend</h1>
-      <Item />
+      <NumberRollup />
     </div>
   );
 }
